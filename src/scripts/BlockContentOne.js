@@ -1,6 +1,5 @@
 import '../styles/contentOneStyle.css';
 import PageBlock from './PageBlock';
-import RegionRegularImg from '../images/Region--regular.jpg';
 
 export default function BlockContentOne(){
     return <PageBlock MyClass={"content--one"}>
