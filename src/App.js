@@ -1,23 +1,22 @@
-import logo from './logo.svg';
+import { isMobile } from 'react-device-detect';
 import './App.css';
+import BlockContentOne from './scripts/BlockContentOne';
+import BlockContentSecond from './scripts/BlockContentSecond';
+import DesignVariantsBlock from './scripts/BlockDesignVariants';
+import FooterBlock from './scripts/BlockFooter';
+import HeaderBlock from './scripts/BlockHeader';
+import HeaderMenu from './scripts/HeaderContainer';
+import './styles/headStyle.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <HeaderMenu />
+      <HeaderBlock />
+      <BlockContentOne />
+      <BlockContentSecond />
+      <DesignVariantsBlock />
+      <FooterBlock />
     </div>
   );
 }

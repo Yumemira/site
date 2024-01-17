@@ -1,0 +1,44 @@
+div.content--second
+{
+    margin-top: 5vh;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    padding: 3vmax;
+    border-radius: 2vmax;
+    background-color: rgba(248, 232, 198, 0.8);
+    overflow: hidden;
+    z-index: 1;
+}
+
+div.content--second-button
+{
+    width: fit-content;
+    color: white;
+    font-size: 2em;
+    font-weight: 700;
+    margin-top: 5vh;
+    padding: 2vh;
+    background-color: rgba(241, 31, 31, 0.9);
+    border-radius: 1vmax;
+    margin-inline: auto;
+}
+
+div.content--second-button:hover
+{
+    background-color: rgba(241, 31, 31, 1);
+    cursor: pointer;
+}
+
+div.content--second-text
+{
+    color: black;
+    font-size: 2em;
+}
+
+#content--second-list
+{
+    color: rgb(48, 48, 48);
+    margin-left: 15%;
+    margin-right: 15%;
+    text-align: left;
+}

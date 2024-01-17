@@ -1,0 +1,31 @@
+#header--head
+{
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 3em;
+    width: 100%;
+    background: linear-gradient(rgb(126, 167, 64), rgb(152, 229, 38));
+    justify-content: space-around;
+    z-index: 2;
+}
+
+p.header--head-text
+{
+    color: white;
+    display: inline;
+    position: relative;
+    margin-block: 0px;
+    font-size: 2em;
+
+}
+a.header--head-text
+{
+    color: white;
+    display: inline;
+    position: relative;
+    margin-block: 0px;
+    font-size: 2em;
+
+}
