@@ -1,4 +1,3 @@
-import { isMobile } from 'react-device-detect';
 import './App.css';
 import BlockContentOne from './scripts/BlockContentOne';
 import BlockContentSecond from './scripts/BlockContentSecond';
