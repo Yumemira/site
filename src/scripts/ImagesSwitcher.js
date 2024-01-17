@@ -19,7 +19,7 @@ class ImageSwitcher extends React.Component{
 
     prevPage = () => {
         this.setState((prevstate) => ({
-            counter:prevstate.counter==0?prevstate.imges.length-1:prevstate.counter-1
+            counter:prevstate.counter===0?prevstate.imges.length-1:prevstate.counter-1
         }))
     }
 
